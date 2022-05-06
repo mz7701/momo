@@ -1,0 +1,10 @@
+{
+    "development" : {
+        "username": "moroju109",
+        "password": "xkqtop12",
+        "database": "example_db",
+        "host": "database-3.cnoxhuocv4d1.us-west-2.rds.amazonaws.com",
+        "port": "3306",
+        "dialect": "mysql"
+    }
+}
