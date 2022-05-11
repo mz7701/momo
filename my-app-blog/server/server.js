@@ -4,12 +4,6 @@ const bodyParser = require('body-parser')
 const sequelize = require('./models').sequelize;
 sequelize.sync();
 
-//
-const path = require("path");
-app.use(express.static(path.join_dirname, "cilent","build"));
-
-//
-//sequelize.sync({ force: true });
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
@@ -60,7 +54,7 @@ app.post('/delete/data', (req, res) => {
     .catch( err => { throw err })
 })
 //
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
     console.log(`Server On : http://localhost:${PORT}/`);
 })

@@ -93,8 +93,8 @@ class App extends Component {
 
     return(
       <div className='App'>
-        <h3> Welcome to <u> sejun </u> Blog! </h3>
-        <h5> https://sejun3278.blog.me/ </h5>
+        <h3> Welcome to <u> seungmyeong </u> Blog! </h3>
+        <h5> https://seungmeyong3278.blog.me/ </h5>
 
         <br />
         <form method='POST' onSubmit={this._addData}>
